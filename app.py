@@ -10,7 +10,7 @@ def home():
 def health():
     return jsonify({
         "status": "UP",
-        "application": "Git Diff"
+        "application": "Flask Mode"
     })
 
 @app.route('/user/<name>')
